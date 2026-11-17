@@ -1,40 +1,42 @@
-# Hi there, I'm Danh Lê (DanhCaChep) ⚡
+# Hi there, I'm Lê Thanh Danh (`@Danhle23`) ⚡
 
-**Electrical & Electronics Engineering Junior | Embedded Systems, Digital IC (SystemVerilog RTL) & AI Automation Engineer**
+**Electronics & Telecommunications Engineering (Year 3) @ VNUHCM – University of Science (HCMUS)**  
+**Digital IC (SystemVerilog RTL) · Embedded C/C++ & Industrial IoT · Scientific Computing & AI Automation**
 
+[![Portfolio Website](https://img.shields.io/badge/Live%20Portfolio-danhle23.github.io-0EA5E9?style=flat-square&logo=googlechrome&logoColor=white)](https://danhle23.github.io)
 [![Email](https://img.shields.io/badge/Email-danhle2305%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:danhle2305@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Danhle23-181717?style=flat-square&logo=github)](https://github.com/Danhle23)
-[![Focus](https://img.shields.io/badge/Focus-Embedded%20C%2FC%2B%2B%20%7C%20SystemVerilog%20%7C%20IIoT%20%7C%20AI%20Agents-2563EB?style=flat-square)]()
+[![RTL CI](https://github.com/Danhle23/uart-controller/actions/workflows/rtl-ci.yml/badge.svg)](https://github.com/Danhle23/uart-controller)
+[![IIoT C++17 CI](https://github.com/Danhle23/iiot-modbus-edge-gateway/actions/workflows/ci.yml/badge.svg)](https://github.com/Danhle23/iiot-modbus-edge-gateway)
 
 ---
 
-### Engineering Philosophy
+### Engineering Focus
 
-I build across the **Hardware–Software–AI boundary** — from cycle-accurate **SystemVerilog RTL & Embedded C/C++ firmware** (STM32, ESP32, UART/SPI/I2C/RS485/Modbus) up to **numerical computing engines (MATLAB)** and **high-throughput telemetry & AI automation pipelines (Python, TypeScript/Next.js)**.
-
-- **Hardware & Silicon:** Digital Logic Design, FSMs, SystemVerilog RTL & Verification Testbenches, Embedded C/C++, FreeRTOS, Industrial Protocols (UART, SPI, I2C, RS485/Modbus, CAN), KiCad PCB Design.
-- **Scientific & Systems Computing:** MATLAB App Designer (`matlab.apps.AppBase` OOP), Numerical Analysis Solvers, Signal & Data Modeling, Linux/macOS CLI Tooling.
-- **Software & AI Automation:** Python, C++, TypeScript, Next.js, Prisma, Agentic Workflows & Automated Testing.
+I design deterministic systems across the **Silicon–Firmware–Software boundary**:
+- **Digital IC & RTL Verification:** Synthesizable **SystemVerilog** IP cores, **AMBA APB3** memory-mapped peripherals, synchronous FIFOs, CDC synchronizers, self-checking BFM testbenches, and automated **Verilator / Icarus Verilog** CI pipelines.
+- **Embedded C/C++ & Industrial IoT:** Zero-heap **Modern C++17 / Embedded C** firmware (`STM32`, `ESP32`, `FreeRTOS`), lock-free DMA ring buffers, noise-resilient **RS485 / Modbus-RTU** codecs, and real-time 3-phase / cold-chain fault monitors.
+- **Scientific Computing & AI Tooling:** **MATLAB OOP** numerical simulation studios, DSP modeling, Python/OpenCV inspection scripts, and full-stack TypeScript/Next.js telemetry applications.
 
 ---
 
-### Featured Engineering Projects
+### Flagship Engineering Repositories
 
-| Project | Domain & Tech Stack | Highlights |
+| Repository | Domain & Stack | Engineering Highlights |
 | :--- | :--- | :--- |
-| **[uart-controller](https://github.com/Danhle23/uart-controller)** | `SystemVerilog` `RTL Design` `Verification` `Makefile` | Synthesizable full-duplex **UART Transmitter (`uart_tx.sv`) & Receiver (`uart_rx.sv`)** IP core with oversampling state machines and self-checking **SystemVerilog Testbench (`uart_tb.sv`)**. |
-| **[DoAn-PhuongPhapTinh-MATLAB](https://github.com/Danhle23/DoAn-PhuongPhapTinh-MATLAB)** | `MATLAB R2026a` `OOP AppBase` `Numerical Methods` | Interactive 6-Tab Scientific Studio featuring **16 standalone numerical solvers** (Newton-Raphson, Banach Adaptive Fixed-Point, Barycentric Lagrange, Multi-Model Regression, $O(h^2)/O(h^4)$ Stencils, Simpson 1/3 & 3/8) with 25/25 automated verification tests. |
-| **[giathat](https://github.com/Danhle23/giathat)** | `TypeScript` `Next.js` `Prisma` `Telemetry` | Full-stack e-commerce price-history telemetry platform detecting synthetic markups and tracking real-time discount curves. |
-| **[claude-skills](https://github.com/Danhle23/claude-skills)** | `Shell` `Python` `AI Agents` `Automation` | Custom modular engineering skills and developer workflow automation scripts for AI coding agents. |
+| **[uart-controller](https://github.com/Danhle23/uart-controller)** | `SystemVerilog` `AMBA APB3` `Verilator CI` | Synthesizable **AMBA APB3 UART SoC Peripheral IP Core** with dual `16×8` TX/RX FIFOs, programmable baud divider, 2-FF CDC, parity/framing/overrun W1C flags, `IRQ` logic & automated EDA CI. |
+| **[iiot-modbus-edge-gateway](https://github.com/Danhle23/iiot-modbus-edge-gateway)** | `Embedded C++17` `Modbus-RTU` `RS485` | **Zero-heap Industrial IoT Edge Engine** featuring compile-time `constexpr` CRC-16, lock-free SPSC DMA ring buffer, EMI noise-resilient frame parser & debounced 3-phase/thermal fault alarms. |
+| **[DoAn-PhuongPhapTinh-MATLAB](https://github.com/Danhle23/DoAn-PhuongPhapTinh-MATLAB)** | `MATLAB R2026a` `OOP AppBase` `Numerical` | 6-Tab Scientific Studio decoupling UI from **16 standalone numerical solvers** (Newton-Raphson, Adaptive Banach, Barycentric Lagrange, $O(h^4)$ Stencils, Simpson 1/3 & 3/8) passing `25/25` unit benchmarks. |
+| **[giathat](https://github.com/Danhle23/giathat)** | `TypeScript` `Next.js` `Prisma` | Full-stack e-commerce price-history telemetry platform detecting synthetic pre-sale markups and tracking historical discount curves. |
+| **[claude-skills](https://github.com/Danhle23/claude-skills)** | `Python` `Shell` `AI Agents` | Modular engineering automation workflows and custom agent skills for rapid hardware datasheet verification and software synthesis. |
 
 ---
 
-### Core Tech Stack
+### Technical Arsenal
 
 ```text
-Hardware / Embedded : SystemVerilog, Verilog, C, C++, STM32, ESP32, FreeRTOS, UART/SPI/I2C/RS485/Modbus, KiCad
-Scientific / Math   : MATLAB (App Designer, Simulink, Numerical Computing), Python (NumPy, OpenCV)
-Web / Automation    : TypeScript, Next.js, Node.js, Prisma, Git/GitHub Actions, Linux/Bash/Zsh
+Silicon / Hardware  : SystemVerilog (IEEE 1800-2012), Verilog, AMBA APB3, Verilator, Icarus Verilog, LTspice, KiCad
+Embedded / IIoT     : C, C++17 (Zero-Heap), STM32, ESP32, FreeRTOS, UART, SPI, I2C, RS485/Modbus-RTU, MQTT
+Math / DSP / Web    : MATLAB (App Designer OOP, DSP), Python (NumPy, OpenCV), TypeScript, Next.js, Linux/Git CI
 ```
 
-> *Open to **Embedded Software / Digital IC Design & Verification / R&D Internships** and **IIoT & AI Systems Engineering** collaborations.*
+> *Actively open to **R&D Internships / Working Student roles** in **Digital IC Design & Verification**, **Embedded Firmware**, or **Industrial IoT & Automation** in Ho Chi Minh City / Remote.*
