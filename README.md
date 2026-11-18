@@ -1,42 +1,36 @@
-# Hi there, I'm Lê Thanh Danh (`@Danhle23`) ⚡
+# Lê Thanh Danh (`@Danhle23`)
 
-**Electronics & Telecommunications Engineering (Year 3) @ VNUHCM – University of Science (HCMUS)**  
-**Digital IC (SystemVerilog RTL) · Embedded C/C++ & Industrial IoT · Scientific Computing & AI Automation**
+**Electronics & Telecommunications Engineering (Control & Automation Track) @ VNUHCM – University of Science (HCMUS)**  
+**Digital IC (SystemVerilog RTL) · Embedded C/C++ & Industrial IoT · Scientific Computing**
 
-[![Portfolio Website](https://img.shields.io/badge/Live%20Portfolio-danhle23.github.io-0EA5E9?style=flat-square&logo=googlechrome&logoColor=white)](https://danhle23.github.io)
-[![Email](https://img.shields.io/badge/Email-danhle2305%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:danhle2305@gmail.com)
+[![Portfolio Website](https://img.shields.io/badge/Specification%20%26%20Live%20Bench-danhle23.github.io-141413?style=flat-square)](https://danhle23.github.io)
+[![Email](https://img.shields.io/badge/Email-danhle2305%40gmail.com-C84B31?style=flat-square)](mailto:danhle2305@gmail.com)
 [![RTL CI](https://github.com/Danhle23/uart-controller/actions/workflows/rtl-ci.yml/badge.svg)](https://github.com/Danhle23/uart-controller)
 [![IIoT C++17 CI](https://github.com/Danhle23/iiot-modbus-edge-gateway/actions/workflows/ci.yml/badge.svg)](https://github.com/Danhle23/iiot-modbus-edge-gateway)
+[![ASan C++17 CI](https://github.com/Danhle23/smart-campus-parking-cpp/actions/workflows/ci.yml/badge.svg)](https://github.com/Danhle23/smart-campus-parking-cpp)
 
 ---
 
 ### Engineering Focus
 
-I design deterministic systems across the **Silicon–Firmware–Software boundary**:
-- **Digital IC & RTL Verification:** Synthesizable **SystemVerilog** IP cores, **AMBA APB3** memory-mapped peripherals, synchronous FIFOs, CDC synchronizers, self-checking BFM testbenches, and automated **Verilator / Icarus Verilog** CI pipelines.
-- **Embedded C/C++ & Industrial IoT:** Zero-heap **Modern C++17 / Embedded C** firmware (`STM32`, `ESP32`, `FreeRTOS`), lock-free DMA ring buffers, noise-resilient **RS485 / Modbus-RTU** codecs, and real-time 3-phase / cold-chain fault monitors.
-- **Scientific Computing & AI Tooling:** **MATLAB OOP** numerical simulation studios, DSP modeling, Python/OpenCV inspection scripts, and full-stack TypeScript/Next.js telemetry applications.
+- **Digital IC & RTL Verification:** Synthesizable **SystemVerilog (IEEE 1800-2012)** IP cores, **AMBA APB3** memory-mapped peripherals, synchronous FIFOs, 2-FF CDC synchronizers, BFM testbenches, and automated **Verilator / Icarus Verilog** CI.
+- **Embedded C/C++ & Industrial Fieldbus:** Deterministic **zero-heap C++17 / Embedded C** firmware (`STM32`, `ESP32`, `FreeRTOS`), lock-free DMA ring buffers, EMI noise-resilient **RS485 / Modbus-RTU** codecs, and **ASan/UBSan**-verified custom data structures.
+- **DSP, Numerical & Telemetry Systems:** **MATLAB OOP** numerical studios, FIR/IIR sensor noise filtering, Python/OpenCV tooling, and TypeScript/Next.js time-series telemetry.
 
 ---
 
-### Flagship Engineering Repositories
+### Selected Engineering Repositories
 
-| Repository | Domain & Stack | Engineering Highlights |
+| Repository | Stack & Verification | Summary |
 | :--- | :--- | :--- |
-| **[uart-controller](https://github.com/Danhle23/uart-controller)** | `SystemVerilog` `AMBA APB3` `Verilator CI` | Synthesizable **AMBA APB3 UART SoC Peripheral IP Core** with dual `16×8` TX/RX FIFOs, programmable baud divider, 2-FF CDC, parity/framing/overrun W1C flags, `IRQ` logic & automated EDA CI. |
-| **[iiot-modbus-edge-gateway](https://github.com/Danhle23/iiot-modbus-edge-gateway)** | `Embedded C++17` `Modbus-RTU` `RS485` | **Zero-heap Industrial IoT Edge Engine** featuring compile-time `constexpr` CRC-16, lock-free SPSC DMA ring buffer, EMI noise-resilient frame parser & debounced 3-phase/thermal fault alarms. |
-| **[DoAn-PhuongPhapTinh-MATLAB](https://github.com/Danhle23/DoAn-PhuongPhapTinh-MATLAB)** | `MATLAB R2026a` `OOP AppBase` `Numerical` | 6-Tab Scientific Studio decoupling UI from **16 standalone numerical solvers** (Newton-Raphson, Adaptive Banach, Barycentric Lagrange, $O(h^4)$ Stencils, Simpson 1/3 & 3/8) passing `25/25` unit benchmarks. |
-| **[giathat](https://github.com/Danhle23/giathat)** | `TypeScript` `Next.js` `Prisma` | Full-stack e-commerce price-history telemetry platform detecting synthetic pre-sale markups and tracking historical discount curves. |
-| **[claude-skills](https://github.com/Danhle23/claude-skills)** | `Python` `Shell` `AI Agents` | Modular engineering automation workflows and custom agent skills for rapid hardware datasheet verification and software synthesis. |
+| **[uart-controller](https://github.com/Danhle23/uart-controller)** | `SystemVerilog` `AMBA APB3` `Verilator CI` | Synthesizable **AMBA APB3 UART SoC Peripheral IP Core** with dual `16×8` TX/RX FIFOs, 16-bit baud divider, 2-FF CDC, W1C parity/framing/overrun registers & maskable `IRQ`. |
+| **[iiot-modbus-edge-gateway](https://github.com/Danhle23/iiot-modbus-edge-gateway)** | `Embedded C++17` `Zero-Heap` `Modbus-RTU` | Deterministic industrial telemetry engine featuring compile-time `constexpr` CRC-16, lock-free SPSC DMA ring buffer, RS485 glitch recovery & 3-phase/cold-chain fault latching. |
+| **[smart-campus-parking-cpp](https://github.com/Danhle23/smart-campus-parking-cpp)** | `C++17` `Custom ADTs` `ASan/UBSan CI` | **Team Lead (8 members)** — Custom Hash Table, Binary Min-Heap Dijkstra routing, Levenshtein OCR plate recovery & two-phase transactional rollback (`24/24` tests, 0 leaks). |
+| **[DoAn-PhuongPhapTinh-MATLAB](https://github.com/Danhle23/DoAn-PhuongPhapTinh-MATLAB)** | `MATLAB R2026a` `OOP AppBase` | 6-Tab Scientific Studio decoupling UI controllers from **16 standalone numerical solvers** passing `25/25` precision benchmarks ($10^{-15}$ accuracy). |
+| **[giathat](https://github.com/Danhle23/giathat)** | `TypeScript` `Next.js` `Prisma` | Time-series e-commerce price-history tracker detecting synthetic pre-sale markups and visualizing genuine discount baselines. |
 
 ---
 
-### Technical Arsenal
+### Interactive Timing & Protocol Workbench
 
-```text
-Silicon / Hardware  : SystemVerilog (IEEE 1800-2012), Verilog, AMBA APB3, Verilator, Icarus Verilog, LTspice, KiCad
-Embedded / IIoT     : C, C++17 (Zero-Heap), STM32, ESP32, FreeRTOS, UART, SPI, I2C, RS485/Modbus-RTU, MQTT
-Math / DSP / Web    : MATLAB (App Designer OOP, DSP), Python (NumPy, OpenCV), TypeScript, Next.js, Linux/Git CI
-```
-
-> *Actively open to **R&D Internships / Working Student roles** in **Digital IC Design & Verification**, **Embedded Firmware**, or **Industrial IoT & Automation** in Ho Chi Minh City / Remote.*
+Explore live cycle-accurate **APB3 UART waveforms**, **RS485 Modbus-RTU CRC-16 frames**, **50Hz DSP IIR filtering**, and my **1-Page ATS Resume (PDF)** at **[danhle23.github.io](https://danhle23.github.io)**.
