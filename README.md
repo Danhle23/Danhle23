@@ -13,8 +13,8 @@
 
 ### Engineering Focus
 
-- **Digital IC & RTL Verification:** Synthesizable **SystemVerilog (IEEE 1800-2012)** IP cores, **AMBA APB3** memory-mapped peripherals, synchronous FIFOs, 2-FF CDC synchronizers, BFM testbenches, and automated **Verilator / Icarus Verilog** CI.
-- **Embedded C/C++ & Industrial Fieldbus:** Deterministic **zero-heap C++17 / Embedded C** firmware (`STM32`, `ESP32`, `FreeRTOS`), lock-free DMA ring buffers, EMI noise-resilient **RS485 / Modbus-RTU** codecs, and **ASan/UBSan**-verified custom data structures.
+- **Digital IC & RTL Verification:** Synthesizable **SystemVerilog (IEEE 1800-2012)** IP cores, **AMBA APB3** memory-mapped peripherals, synchronous FIFOs, 2-FF CDC synchronizers, BFM testbenches, and automated **Yosys Synthesis / Verilator / Icarus Verilog** CI (`2,081 cells / 427 DFFs / 0 latches`).
+- **Systems C++17 & Industrial Fieldbus:** Deterministic **zero-heap C++17 / Embedded C** protocol engines, lock-free SPSC DMA ring buffers, EMI noise-resilient **RS485 / Modbus-RTU** codecs, and **ASan/UBSan**-verified custom data structures.
 - **DSP, Numerical & Telemetry Systems:** **MATLAB OOP** numerical studios, FIR/IIR sensor noise filtering, Python/OpenCV tooling, and TypeScript/Next.js time-series telemetry.
 
 ---
